@@ -1,0 +1,49 @@
+## .NET Build ve Çıktı Klasörleri
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Pp]ublish/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio, Rider ve VS Code Geçici Dosyaları
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+## Test ve Kapsama Çıktıları
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*/
+lcov.info
+
+## NuGet ve Paket Önbellekleri
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Kullanıcıya Özel Ayarlar, Gizli Bilgiler ve Geçici Dosyalar
+*.pfx
+*.publishsettings
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.env
+.env.*
+appsettings.*.local.json
